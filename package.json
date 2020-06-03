@@ -1,0 +1,14 @@
+{
+  "name": "react-pride",
+  "version": "0.0.1",
+  "description": "A simple pride flag component for React apps",
+  "main": "index.js",
+  "repository": "git@github.com:haldunanil/react-pride.git",
+  "author": "Haldun Anil",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^5.0.0"
+  }
+}
