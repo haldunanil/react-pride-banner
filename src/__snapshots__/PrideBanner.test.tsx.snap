@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrideBanner StyledPrideBanner should match snapshot when 'expandOnHover' is 'false' 1`] = `
+.c0 {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient( to right, red, orange, yellow, green, blue, violet );
+  z-index: 2000;
+  -webkit-transition: height 150ms ease-in-out;
+  transition: height 150ms ease-in-out;
+}
+
+.c0 > span {
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.2),0 0 16px rgba(0,0,0,0.1);
+}
+
+<div
+  className="c0"
+>
+  We support our LGBTQ+ users!
+</div>
+`;
+
+exports[`PrideBanner StyledPrideBanner should match snapshot when 'expandOnHover' is 'true' 1`] = `
+.c0 {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient( to right, red, orange, yellow, green, blue, violet );
+  z-index: 2000;
+  -webkit-transition: height 150ms ease-in-out;
+  transition: height 150ms ease-in-out;
+}
+
+.c0 > span {
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.2),0 0 16px rgba(0,0,0,0.1);
+}
+
+.c0:hover {
+  height: 50px;
+  background-size: 1000% 1000%;
+  -webkit-animation: shift 15s infinite;
+  animation: shift 15s infinite;
+}
+
+.c0:hover > span {
+  opacity: 1;
+}
+
+<div
+  className="c0"
+>
+  We support our LGBTQ+ users!
+</div>
+`;
+
+exports[`PrideBanner StyledPrideBanner should match snapshot when given a 'bannerColors' prop 1`] = `
+.c0 {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient( to right, #FF0000, #FFA500, #FFFF00, #008000, #0000FF, #EE82EE );
+  z-index: 2000;
+  -webkit-transition: height 150ms ease-in-out;
+  transition: height 150ms ease-in-out;
+}
+
+.c0 > span {
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.2),0 0 16px rgba(0,0,0,0.1);
+}
+
+<div
+  className="c0"
+>
+  We support our LGBTQ+ users!
+</div>
+`;
+
+exports[`PrideBanner StyledPrideBanner should match snapshot when position is 'absolute' 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient( to right, red, orange, yellow, green, blue, violet );
+  z-index: 2000;
+  -webkit-transition: height 150ms ease-in-out;
+  transition: height 150ms ease-in-out;
+}
+
+.c0 > span {
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.2),0 0 16px rgba(0,0,0,0.1);
+}
+
+<div
+  className="c0"
+>
+  We support our LGBTQ+ users!
+</div>
+`;
+
+exports[`PrideBanner StyledPrideBanner should match snapshot when position is 'fixed' 1`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient( to right, red, orange, yellow, green, blue, violet );
+  z-index: 2000;
+  -webkit-transition: height 150ms ease-in-out;
+  transition: height 150ms ease-in-out;
+}
+
+.c0 > span {
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.2),0 0 16px rgba(0,0,0,0.1);
+}
+
+<div
+  className="c0"
+>
+  We support our LGBTQ+ users!
+</div>
+`;
+
+exports[`PrideBanner should match snapshot 1`] = `
+<styled.div
+  expandOnHover={true}
+  position="fixed"
+>
+  <span>
+    We support our LGBTQ+ users!
+  </span>
+</styled.div>
+`;
