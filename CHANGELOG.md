@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/haldunanil/react-pride/compare/v0.0.4...v0.0.5) (2020-06-04)
+
+
+### Bug Fixes
+
+* don't compile test files into lib ([ba93003](https://github.com/haldunanil/react-pride/commit/ba93003d7274a44f4a74add063345979bc27b3b6))
+
 ### [0.0.4](https://github.com/haldunanil/react-pride/compare/v0.0.3...v0.0.4) (2020-06-04)
 
 

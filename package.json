@@ -1,6 +1,6 @@
 {
   "name": "react-pride-banner",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple pride flag component for React apps",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -23,7 +23,8 @@
     "watch:types": "yarn build:types --watch",
     "watch": "npm-run-all --parallel watch:**",
     "publish:dry-run": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin master && npm publish"
   },
   "peerDependencies": {
     "react": "^16.9.0",
