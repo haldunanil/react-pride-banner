@@ -11,6 +11,15 @@
   "repository": "git@github.com:haldunanil/react-pride.git",
   "author": "Haldun Anil",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "comonent",
+    "pride",
+    "banner",
+    "typescript",
+    "javascript"
+  ],
   "scripts": {
     "test": "jest --env=jsdom",
     "coverage": "jest --env=jsdom --coverage",
