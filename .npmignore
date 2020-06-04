@@ -1,6 +1,0 @@
-*.test.*
-.babelrc
-.yarnclean
-commitling.config.js
-jest.*.js
-tsconfig.json
