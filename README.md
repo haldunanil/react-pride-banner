@@ -73,3 +73,7 @@ const bannerColors = {
   violet: "#EE82EE",
 };
 ```
+
+## Example usages
+
+- [Reopening NYC](https://reopeningnyc.com) 
