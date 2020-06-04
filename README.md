@@ -1,6 +1,6 @@
 # react-pride-banner 🏳️‍🌈
 
-<a href="https://www.npmjs.com/package/react-pride-banner"><img alt="npm" src="https://img.shields.io/npm/v/react-pride-banner"></a>
+[![npm](https://img.shields.io/npm/v/react-pride-banner)](https://www.npmjs.com/package/react-pride-banner)
 
 A simple pride flag component for React apps
 
