@@ -76,4 +76,4 @@ const bannerColors = {
 
 ## Example usages
 
-- [Reopening NYC](https://reopeningnyc.com) 
+- TBD
